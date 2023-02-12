@@ -1,0 +1,28 @@
+---
+dependencies: []
+
+galaxy_info:
+  role_name: php
+  author: gzeel
+  description: PHP for Debian/Ubuntu.
+  license: "license (BSD, MIT)"
+  min_ansible_version: 2.8
+  platforms:
+    - name: Debian
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - trusty
+        - xenial
+        - bionic
+  galaxy_tags:
+    - development
+    - web
+    - php
+    - language
+    - fpm
+    - drupal
+    - wordpress
+    - joomla
+    - magento
